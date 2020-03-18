@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*<a href="#" class="scrollup" title="Goto Top" data-placement="top"></a> */
+/*<script type="text/javascript">
+
+	$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    $('.scrollup').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+	
+});
+	
+</script> */
+.scrollup {
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom: 25px;
+    right: 20px;
+    display: none;
+	opacity:.9;
+    text-indent:100px;
+	background:url(../images/scroll.png);
+	background-repeat:no-repeat;
+}
